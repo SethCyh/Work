@@ -11,5 +11,5 @@ jobs:
       - name: Build Code
         run: make
       - name: Nominal Run
-        run: ./hello
+        run: ./test
 
