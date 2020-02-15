@@ -10,6 +10,5 @@ jobs:
       - uses: actions/checkout@v1
       - name: Build Code
         run: make
-      - name: Nominal Run
-        run: ./test
+
 
